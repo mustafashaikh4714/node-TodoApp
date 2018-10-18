@@ -1,4 +1,4 @@
-const MongoClient = require('mongodb');
+const MongoClient = require('mongodb'); //recommended 2.2.33 version.
 
 MongoClient.connect('mongodb://localhost:27017/TodoApp',{ useNewUrlParser: true }, (err, db) => {
 if(err) {

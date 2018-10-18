@@ -12,8 +12,7 @@ db.collection('Todos').findOneAndUpdate({
 },{
     $set: {
         text: "Eat Mango"
-    },
-}, {
+    },}, {
     returnOrigrnal: false
 }).then((result) => {
     console.log(result);
