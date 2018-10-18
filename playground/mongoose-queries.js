@@ -22,5 +22,6 @@ Todo.findById({
     if(!todo){
        return console.log('Todo not found');
     }
+    
   console.log('Todo', todo); 
 })
